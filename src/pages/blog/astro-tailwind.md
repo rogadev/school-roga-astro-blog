@@ -65,46 +65,4 @@ Tailwind CSS is a utility-first CSS framework. This means that instead of writin
 
 In the above example, we're using Tailwind CSS to add a background color, padding, and rounded corners to a `div` element. We're also using Tailwind CSS to add a title and a paragraph to our `div`. The `bg-gray-100` class adds a light gray background to our `div`. The `p-4` class adds 1rem of padding to our `div`. The `rounded-lg` class adds rounded corners to our `div`. The `text-2xl` class makes our title text 2x the default size. The `font-bold` class makes our title text bold. The `text-gray-500` class makes our paragraph text a medium gray. Pretty simple, right?
 
-### Change the Blog Theme to Make Our Blog Pretty Again
-
-So my blog articles look pretty ugly. Paragraphs are no longer neatly spaced apart. A lot of little things just basically broke. Let's fix that.
-
-You'll notice at the head of your blog articles, there's a `layout` variable. This is the file that Astro looks at to apply a given layout to your blog article. Let's open up `src/layouts/BlogPost.astro` and start exploring ways we can style our blog posts.
-
-At the top of our BlogPost.astro layout, we have the following:
-
-```html
-<html lang="en">
-	<head>
-		<BaseHead title={title} description={description} />
-		<style>
-			.title {
-				font-size: 2em;
-				margin: 0.25em 0 0;
-			}
-			hr {
-				border-top: 1px solid #ddd;
-				margin: 1rem 0;
-			}
-		</style>
-	</head>
-  ...
-</html>
-```
-
-This style tag will apply to everything in our blog post. We can add additional style tags and use Tailwind CSS to style our blog posts. Importantly, Tailwind CSS styles need a `lang="postcss"` attribute on the style tag. Let's add a new style tag to our BlogPost.astro layout, just below the existing style tag, and remember to add a `lang="postcss"` attribute to it:
-
-```html
-<html lang="en">
-	<head>
-		<BaseHead title={title} description={description} />
-		<style>
-			...
-		</style>
-    <style lang="postcss">
-      /* Add your Tailwind CSS styles here */
-    </style>
-	</head>
-  ...
-</html>
-```
+From here, start adding Tailwind CSS classes to your HTML elements. You can find a full list of Tailwind CSS classes [here](https://tailwindcss.com/docs). If you're not sure what a class does, you can hover over it in the docs and it will show you a preview of what it does.
