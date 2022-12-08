@@ -1,3 +1,11 @@
+---
+layout: "../../layouts/BlogPost.astro"
+title: "OpenAI ChatGPT Creates a Bob Ross Episode"
+description: "I asked ChatGPT to write me a Bob Ross episode. Here's how it did..."
+pubDate: "December 7, 2022"
+heroImage: "/openAIchatGPT.png"
+---
+
 # AI Writing a Bob Ross Episode in 2022
 
 Back in 2018 Keaton Patti ([@KeatonPatti](https://twitter.com/keatonpatti/status/1006961202998726665)) asked AI to watch over 1000 hours of Bob Ross and write a Bob Ross video of it's own. The results were hilarious, to say the least.
