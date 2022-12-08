@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Creating A Blog In Astro"
 description: "How I created my developer blog using Astro"
 pubDate: "November 25, 2022"
-heroImage: "/placeholder-hero.jpg"
+heroImage: "/astro-hero.jpg"
 ---
 
 Creating a blog in Astro is surprisingly easy. I was able to get this blog up and running in less than an hour. I'm going to walk you through the steps I took to get this blog up and running.

@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Tailwind CSS for Your Astro Blog"
 description: "How I added Tailwind CSS to my Astro blog"
 pubDate: "November 25, 2022"
-heroImage: "/placeholder-hero.jpg"
+heroImage: "/tailwind-css.png"
 ---
 
 For as long as I can remember, Tailwind CSS has been my all-time favorite CSS framework. I've used it on countless projects and I've never been disappointed. It's easy to use, easy to customize, and, perhaps most importantly for those new developers out there, it's easy to learn. I've been using Tailwind CSS for years and I'm still learning new things about it. It is, in my opinion, the best CSS framework out there. Let's get it set up in our new Astro blog.

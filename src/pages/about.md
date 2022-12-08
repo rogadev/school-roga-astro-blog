@@ -3,7 +3,7 @@ layout: "../layouts/BlogPost.astro"
 title: "About Me"
 description: "Lorem ipsum dolor sit amet"
 updatedDate: "August 08 2022"
-heroImage: "/placeholder-about.jpg"
+heroImage: "/ryan-roga-neko-iron-mine-bay-2019.jpg"
 ---
 
 The CEO of his first company when he was just 14, Ryan has always had a passion for entrepreneurship. He has been involved in the creation of multiple companies, including a successful, award winning exterior cleaning company based in Victoria, BC. Ryan wrote his first lines of code way back in 2001, but it wasn't until the pandemic hit that he decided to take his passion for programming to the next level. He is now a full stack developer with a special interest in creating micro SaaS solutions for small business.
